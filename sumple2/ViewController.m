@@ -27,14 +27,14 @@
 }
 
 - (IBAction)TapBtn:(id)sender {
-    UIImage *rank1 = [UIImage imageNamed:@"abe_test.jpg"];
-    UIImage *rank2 = [UIImage imageNamed:@"mukai_test.jpg"];
-    UIImage *rank3 = [UIImage imageNamed:@"koike_test.jpg"];
+    UIImage *rank1 = [UIImage imageNamed:@"kita_test.png"];
+    UIImage *rank2 = [UIImage imageNamed:@"miya_test.png"];
+    UIImage *rank3 = [UIImage imageNamed:@"gakki_test.png"];
     
-    [self.resultImage setImage:[self grayscale:rank1 andgrayscale2:rank2 andgrayscale3:rank3]];
+    [self.resultImage setImage:[self composition1:rank1 andcomposition2:rank2 andcomposition3:rank3]];
 }
 
-- (UIImage*)grayscale:(UIImage*)anImage1 andgrayscale2:(UIImage*)anImage2 andgrayscale3:(UIImage*)anImage3 {
+- (UIImage*)composition1:(UIImage*)anImage1 andcomposition2:(UIImage*)anImage2 andcomposition3:(UIImage*)anImage3 {
     
     CGImageRef imageRef1;
     imageRef1 = anImage1.CGImage;

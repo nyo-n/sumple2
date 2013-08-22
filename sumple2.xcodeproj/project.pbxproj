@@ -10,6 +10,9 @@
 		025BE80217C5950B00A08D86 /* koike_test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 025BE7FF17C5950B00A08D86 /* koike_test.jpg */; };
 		025BE80317C5950B00A08D86 /* mukai_test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 025BE80017C5950B00A08D86 /* mukai_test.jpg */; };
 		025BE80417C5950B00A08D86 /* abe_test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 025BE80117C5950B00A08D86 /* abe_test.jpg */; };
+		025BE80817C5B21100A08D86 /* kita_test.png in Resources */ = {isa = PBXBuildFile; fileRef = 025BE80517C5B21100A08D86 /* kita_test.png */; };
+		025BE80917C5B21100A08D86 /* gakki_test.png in Resources */ = {isa = PBXBuildFile; fileRef = 025BE80617C5B21100A08D86 /* gakki_test.png */; };
+		025BE80A17C5B21100A08D86 /* miya_test.png in Resources */ = {isa = PBXBuildFile; fileRef = 025BE80717C5B21100A08D86 /* miya_test.png */; };
 		0297C5FC17C3351400136CF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0297C5FB17C3351400136CF4 /* UIKit.framework */; };
 		0297C5FE17C3351400136CF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0297C5FD17C3351400136CF4 /* Foundation.framework */; };
 		0297C60017C3351400136CF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0297C5FF17C3351400136CF4 /* CoreGraphics.framework */; };
@@ -46,6 +49,9 @@
 		025BE7FF17C5950B00A08D86 /* koike_test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koike_test.jpg; sourceTree = "<group>"; };
 		025BE80017C5950B00A08D86 /* mukai_test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mukai_test.jpg; sourceTree = "<group>"; };
 		025BE80117C5950B00A08D86 /* abe_test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abe_test.jpg; sourceTree = "<group>"; };
+		025BE80517C5B21100A08D86 /* kita_test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kita_test.png; sourceTree = "<group>"; };
+		025BE80617C5B21100A08D86 /* gakki_test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gakki_test.png; sourceTree = "<group>"; };
+		025BE80717C5B21100A08D86 /* miya_test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miya_test.png; sourceTree = "<group>"; };
 		0297C5F817C3351400136CF4 /* sumple2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sumple2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0297C5FB17C3351400136CF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0297C5FD17C3351400136CF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -145,6 +151,9 @@
 		0297C60217C3351400136CF4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				025BE80517C5B21100A08D86 /* kita_test.png */,
+				025BE80617C5B21100A08D86 /* gakki_test.png */,
+				025BE80717C5B21100A08D86 /* miya_test.png */,
 				025BE7FF17C5950B00A08D86 /* koike_test.jpg */,
 				025BE80017C5950B00A08D86 /* mukai_test.jpg */,
 				025BE80117C5950B00A08D86 /* abe_test.jpg */,
@@ -264,6 +273,9 @@
 				025BE80217C5950B00A08D86 /* koike_test.jpg in Resources */,
 				025BE80317C5950B00A08D86 /* mukai_test.jpg in Resources */,
 				025BE80417C5950B00A08D86 /* abe_test.jpg in Resources */,
+				025BE80817C5B21100A08D86 /* kita_test.png in Resources */,
+				025BE80917C5B21100A08D86 /* gakki_test.png in Resources */,
+				025BE80A17C5B21100A08D86 /* miya_test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

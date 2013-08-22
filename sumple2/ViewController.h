@@ -11,7 +11,7 @@
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *result;
 - (IBAction)TapBtn:(id)sender;
-- (UIImage*)grayscale: (UIImage*)anImage andgrayscale2:(UIImage*)anImage2 andgrayscale3:(UIImage*)anImage3;
+- (UIImage*)composition1: (UIImage*)anImage andcomposition2:(UIImage*)anImage2 andcomposition3:(UIImage*)anImage3;
 @property (weak, nonatomic) IBOutlet UIImageView *resultImage;
 
 
